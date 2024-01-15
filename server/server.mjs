@@ -18,6 +18,7 @@ const httpServer = http.createServer(app);
 //schema
 //resolver
 // là 1 document mô tả xem dữ liệu gồm có cái gì
+// Cách liên kết giữa các type trong Schema & Resolver
 const typeDefs = `#graphql
     type Folder{
         id:String,
